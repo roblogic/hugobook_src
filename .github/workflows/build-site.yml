@@ -28,6 +28,6 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: roblogic/hugobook
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./public
 
