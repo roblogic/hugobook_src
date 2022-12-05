@@ -1,6 +1,6 @@
 baseURL = 'https://roblogic.github.io/hugobook'
 languageCode = 'en-us'
-title = 'My Illogical Thingy'
+title = 'Zsh-Doc experiment'
 theme = 'hugo-book'
 #googleAnalytics = "UA-XXXXXXXXX-X"
 #disqusShortname = "my-site"
@@ -9,11 +9,15 @@ disablePathToLower = true
 # (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
 # You can remove related files with config below
 disableKinds = ['taxonomy', 'taxonomyTerm']
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   BookTheme = 'light'
   BookToC = true
-  BookLogo = 'logo.png'
+  # BookLogo = 'logo.png'
 
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to "*" to render all sections to menu

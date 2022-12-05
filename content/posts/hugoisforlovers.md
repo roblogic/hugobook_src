@@ -65,7 +65,7 @@ Now we are going to run hugo again, but this time with hugo in watch mode.
 
 
 Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
+content pages. How about changing this very file to *fix the typographical error*. (Duplicate text deleted!)
 
 Content files are found in `docs/content/`. Unless otherwise specified, files
 are located at the same relative location as the url, in our case
